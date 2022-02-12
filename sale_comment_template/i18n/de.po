@@ -1,90 +1,86 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* sale_comment_template
+#	* sale_comment_template
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-26 16:28+0000\n"
-"PO-Revision-Date: 2014-10-22 08:13+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
-"Language: \n"
+"PO-Revision-Date: 2020-03-23 15:13+0000\n"
+"Last-Translator: Maria Sparenberg <maria.sparenberg@gmx.net>\n"
+"Language-Team: none\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.10\n"
 
 #. module: sale_comment_template
 #: model:ir.model.fields,field_description:sale_comment_template.field_sale_order__note2
 msgid "Bottom Comment"
-msgstr "Commentaires du bas"
+msgstr "Suffix-Textbaustein"
 
 #. module: sale_comment_template
 #: model:ir.model.fields,field_description:sale_comment_template.field_sale_order__comment_template2_id
 msgid "Bottom Comment Template"
-msgstr "Modèle de commentaire du bas"
+msgstr "Suffix-Textbausteinvorlage"
 
 #. module: sale_comment_template
 #: model_terms:ir.ui.view,arch_db:sale_comment_template.sale_order_form_add_comment
 msgid "Bottom Comments"
-msgstr "Commentaires du bas"
+msgstr "Suffix-Textbausteine"
 
 #. module: sale_comment_template
 #: model_terms:ir.ui.view,arch_db:sale_comment_template.sale_order_form_add_comment
 msgid "Comments"
-msgstr "Commentaires"
+msgstr "Textbausteine"
 
 #. module: sale_comment_template
 #: model:ir.ui.menu,name:sale_comment_template.menu_base_comment_template_sale
 msgid "Document Comments"
-msgstr "Commentaires de documents"
+msgstr "Textbausteine"
 
 #. module: sale_comment_template
 #: model:ir.model.fields,field_description:sale_comment_template.field_sale_order_line__formatted_note
 msgid "Formatted Note"
-msgstr ""
+msgstr "Zusätzlicher Hinweis"
 
 #. module: sale_comment_template
 #: model_terms:ir.ui.view,arch_db:sale_comment_template.sale_order_form_add_comment
 msgid "Load a template"
-msgstr "Utiliser un modèle"
+msgstr "Textbausteinvorlage laden"
 
 #. module: sale_comment_template
 #: model:ir.model,name:sale_comment_template.model_sale_order
-#, fuzzy
 msgid "Sale Order"
-msgstr "Commande"
+msgstr "Verkaufsauftrag"
 
 #. module: sale_comment_template
 #: model:ir.model,name:sale_comment_template.model_sale_order_line
-#, fuzzy
 msgid "Sales Order Line"
-msgstr "Commande"
+msgstr "Auftragsposition"
 
 #. module: sale_comment_template
 #: model_terms:ir.ui.view,arch_db:sale_comment_template.sale_order_form_add_comment
-msgid ""
-"The comments will be displayed on the printed document. You can load a "
-"predefined template, write your own text or load a template and then modify "
-"it only for this document."
+msgid "The comments will be displayed on the printed document. You can load a predefined template, write your own text or load a template and then modify it only for this document."
 msgstr ""
-"Les commentaires seront affichés sur le document imprimé. Vous pouvez "
-"charger un modèle prédéfini, écrire votre propre texte ou encore charger un "
-"modèle puis le modifier uniquement pour ce document."
+"Diese Textbausteine werden auf Dokumentbelegen gedruckt. Es kann eine "
+"bereits existierende Vorlage geladen, ein neuer eigenständiger Text "
+"geschrieben oder eine Vorlage nach dem Laden nur für dieses Dokument "
+"angepasst werden."
 
 #. module: sale_comment_template
 #: model:ir.model.fields,field_description:sale_comment_template.field_sale_order__note1
 msgid "Top Comment"
-msgstr "Commentaire du haut"
+msgstr "Präfix-Textbaustein"
 
 #. module: sale_comment_template
 #: model:ir.model.fields,field_description:sale_comment_template.field_sale_order__comment_template1_id
 msgid "Top Comment Template"
-msgstr "Modèle de commentaire du haut"
+msgstr "Präfix-Textbausteinvorlage"
 
 #. module: sale_comment_template
 #: model_terms:ir.ui.view,arch_db:sale_comment_template.sale_order_form_add_comment
 msgid "Top Comments"
-msgstr "Commentaires du haut"
+msgstr "Präfix-Textbausteine"
