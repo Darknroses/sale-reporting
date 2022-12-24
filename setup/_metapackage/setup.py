@@ -8,6 +8,7 @@ setuptools.setup(
     description="Meta package for oca-sale-reporting Odoo addons",
     version=version,
     install_requires=[
+        'odoo14-addon-sale_backorder',
         'odoo14-addon-sale_comment_template',
         'odoo14-addon-sale_layout_category_hide_detail',
         'odoo14-addon-sale_order_invoice_date',
@@ -17,6 +18,8 @@ setuptools.setup(
         'odoo14-addon-sale_outgoing_product',
         'odoo14-addon-sale_report_commitment_date',
         'odoo14-addon-sale_report_crossed_out_original_price',
+        'odoo14-addon-sale_report_delivered',
+        'odoo14-addon-sale_report_delivered_brand',
         'odoo14-addon-sale_report_delivered_subtotal',
         'odoo14-addon-sale_report_delivery_date',
     ],
